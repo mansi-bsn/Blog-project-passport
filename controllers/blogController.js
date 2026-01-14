@@ -89,4 +89,8 @@ const deleteBlogController = async (req, res) => {
     }
 }
 
-module.exports = { homePageController, addBlogController, createBlogController, allBlogsController, editBlogController, updateBlogController, deleteBlogController };
+const addCategoryController = async (req, res) => {
+
+}
+
+module.exports = { homePageController, addBlogController, createBlogController, allBlogsController, editBlogController, updateBlogController, deleteBlogController, addCategoryController };
